@@ -27,10 +27,5 @@ public class Main {
         }
         System.out.println(mesaj.toLowerCase()); //harfleri küçültür
         System.out.println(mesaj.toUpperCase()); //harfleri büyütür
-
-
-
-
-
     }
 }
