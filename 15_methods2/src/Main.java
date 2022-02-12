@@ -28,7 +28,7 @@ public class Main {
     }
 
     public static int topla2(int... sayilar) {
-        //noktalar bir evi dizi olduğunu belirtir. birden fazla parametre olacağını belirtir.
+        //noktalar bir nevi dizi olduğunu belirtir. birden fazla parametre olacağını belirtir.
         int toplam = 0;
         for (int sayi : sayilar) {
             toplam += sayi;
