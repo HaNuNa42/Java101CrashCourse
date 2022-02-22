@@ -19,8 +19,8 @@ public class Main {
 
         String yeniMesaj = mesaj.replace(' ', '-'); //kelime veya karakter değiştirmek için
         System.out.println(yeniMesaj);
-        System.out.println(mesaj.substring(2)); //den itibaren yazıyı yazar
-        System.out.println(mesaj.substring(2,5)); //2 den başla 5e kadar oku anlamında kullanılır.
+        System.out.println(mesaj.substring(2)); //2 den itibaren yazıyı yazar
+        System.out.println(mesaj.substring(2,5)); ////substring 2 den 5. indexe kadar olan harfleri yazmak için kullanılır. 2 den başla 5e kadar oku anlamında kullanılır.
         // split : karakter dizisini ayırır
         for (String kelime : mesaj.split(" ")) {
             System.out.println(yeniMesaj);
