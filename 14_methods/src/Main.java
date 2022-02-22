@@ -5,7 +5,7 @@ public class Main {
         parametreliFonksiyon(5);
     }
 
-    public static void mesajVer() {
+    public static void mesajVer() { //void işi yapmasını isteğimizde yazılır. emir kipi gibi
         System.out.println("mesaj");
     }
     public static void parametreliFonksiyon(int parametre) {
