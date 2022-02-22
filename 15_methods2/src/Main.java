@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         String mesaj = "bugün hava çok güzel";
-        String yeniMesaj = mesaj.substring(0, 2);
+        String yeniMesaj = mesaj.substring(0, 2); //substring 0 dan 2. indexe kadar olan harfleri yazmak için kullanılır.
         String yeniMesaj2 = sehirVer();
         System.out.println(yeniMesaj);
         int sayi = topla(5, 7);
